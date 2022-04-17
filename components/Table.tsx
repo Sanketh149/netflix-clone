@@ -21,7 +21,7 @@ function Table({ products, selectedPlan }: Props) {
               }`}
               key={product.id}
             >
-              AED{product.prices[0].unit_amount! / 100}
+              ₹{product.prices[0].unit_amount! / 100}
             </td>
           ))}
         </tr>
